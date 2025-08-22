@@ -10,9 +10,9 @@ genf = 0
 # X = a quantidade de pessoas na lista
 x = int(input("Insira a quantidade de participantes: "))
 
+i = 1
 
 for i in range(int(x)):
-    i = 1
 
     # ESTESTICO
     print("-" * 20)
@@ -37,4 +37,5 @@ print("-"*20)
 print("São", genm, "participantes masculinos e",genf,"femininos")
 print("Enquanto a média das alturas masculinas é de:",media)
 print("A maior altura é de:", maior)
+
 print("Enquanto a menor é:",menor)
