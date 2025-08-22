@@ -29,9 +29,12 @@ for i in range(int(x)):
     else:
         print("Digite m ou f")
 
-
+menor = min(altura)
+maior = max(altura)
 media = sum(altH)/x
 
 print("-"*20)
 print("São", genm, "participantes masculinos e",genf,"femininos")
 print("Enquanto a média das alturas masculinas é de:",media)
+print("A maior altura é de:", maior)
+print("Enquanto a menor é:",menor)
